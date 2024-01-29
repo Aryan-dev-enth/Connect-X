@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+
+* {
+  font-family: 'Fira Code', monospace;
+}
+/* Add this to your existing CSS or create a new CSS file */
+/* Add custom styling for the scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4b5563; /* Set the color of the scrollbar thumb */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1a202c; /* Set the color of the scrollbar track */
+}
+
+/* Adjust the color and size as needed for your design */
